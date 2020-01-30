@@ -1,0 +1,50 @@
+
+.body{
+    height: 290px;
+    width: 320px;  
+    background-color: #c5c5c5;
+    margin: 150px auto;
+    border: 15px solid #af8b8b;
+    font-style: italic;  
+    font-size: x-large;
+    
+}
+.month{
+    float: left;
+    width: 150px;
+    height: 40px;
+    margin: 0px;
+    clear: left;
+    text-align: center;
+    color: white
+    
+}
+.arrows {
+    width: 50px;
+    height: 40px;
+    margin: 0px;
+    float: right;
+     
+    
+}
+.days{
+    height: 40px;
+    width: 45px;
+    float: left;
+    margin: auto;
+    clear: right;
+    text-align: center;
+    color: white;
+    
+}
+.number{
+    height: 40px;
+    width: 45px;
+    float: left;
+    margin: auto;
+    clear: right;
+    text-align: center;
+    color: #ffe4e4
+
+}
+
