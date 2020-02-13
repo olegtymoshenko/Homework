@@ -1,0 +1,98 @@
+.container{
+    height: 1000px;
+    width: 1080px;
+    background: url(img/img.png) no-repeat center ;
+    background-size: contain;
+    position: relative;}
+   
+    .breakfast{position: sticky;
+        float: right;
+        right: 5%;
+        top: 5%;
+        text-transform: uppercase;
+        color: #775e407a;
+        border: solid #8a2be26b;
+        padding: 5px;
+
+   }
+.img1{
+    position: absolute;
+    height: 16%;
+    width: 21%;
+    top: 18%;
+    right: 10%;
+    z-index: 1;
+    
+}
+.img2{
+    position: absolute;
+    height: 7.5em;
+    z-index: 6;
+    top: 19%;
+    left: 21%;
+}
+
+.img3{position: absolute;
+    height: 8em;
+    right: 6%;
+    top: 9%;
+    z-index: 0;
+}
+
+.img4{position: absolute;
+    height: 3em;
+    width: 3em;}
+
+.img5{position: absolute;
+    height: 5em;
+    top: 20%;
+    left: 57%;
+     }
+
+.img6{position: absolute;
+    height: 10em;
+    right: 10%;
+    top: 13%;
+    z-index: 4
+    }
+
+.img7{position: absolute;
+    height: 10em;
+    top: 9%;
+    left: 29%;
+    z-index: 5
+   }
+
+.img8{position: absolute;
+    position: absolute;
+    height: 12em;
+    top: 16%;
+    right: 23%;
+    z-index: 4;}
+
+.img9{position: absolute;
+    height: 12em;
+    top: 0%;
+    left: 31%;
+    }
+
+.img10{position: absolute;
+    height: 3em;
+    width: 3em;}
+
+.img11{position: absolute;
+    height: 3em;
+    width: 3em;}                                       
+    
+.img12{
+    position: absolute;
+    height: 16%;
+    width: 21%;
+    left: 27%;
+    top: 12%;
+    z-index: 3;
+}
+.img13{position: absolute;
+    height: 18em;
+    left: 47%;
+}
