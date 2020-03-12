@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+body{
+    background-color: #3e3b4a;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.wrapper{
+    max-width: 1266px;
+    margin: 0 auto;
+}
+    
+.header{ 
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;   
+}
+.menu{
+padding-top: 94px;
+}
+.menu a{
+   
+    text-decoration: none;
+    color: #898691;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    width: 43px;
+    height: 12px;
+    margin-left: 0;
+    position: absolute;
+    }
+.menu a::before{
+    content: '\2630';
+    padding: 0;
+    width: 24px;
+    height: 19px;
+    margin-right: 11px;   
+    position: relative; 
+
+}
+.title{
+    margin-top: 28px ;
+}
+.title h2{
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 11px;
+    font-size: 48px;
+}
+.title span{
+    color: #868791;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 13px;
+}
+
+.search-form a{
+    text-decoration: none;
+    color: #898691;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    
+}
+.search-form{
+    margin-top: 94px;
+}
+.search-form a::after {
+    content: '';
+    height: 20px;
+    width: 20px;
+    background-color: darkorange;
+}
+
+.main{
+display: flex;
+flex-direction: row-reverse;
+flex-wrap: wrap;
+}
